@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 
-import github from "../img/github-icon.svg";
+import instagram from "../img/instagram.png";
 import logo from "../img/AlamBlackSmall.png";
 
 const Navbar = () => (
@@ -12,9 +12,9 @@ const Navbar = () => (
 					<figure className="image">
 						<img
 							src={logo}
-							alt="Kaldi"
-              style={{ maxHeight: "70px" }}
-              // height="70px"
+							alt="Home"
+							style={{ maxHeight: "80px" }}
+							// height="70px"
 						/>
 					</figure>
 				</Link>
@@ -30,12 +30,16 @@ const Navbar = () => (
 			<div className="navbar-end">
 				<a
 					className="navbar-item"
-					href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
+					href="https://www.instagram.com/alampanah"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<span className="icon">
-						<img src={github} alt="Github" />
+					<span className="icon is-medium">
+						<img
+							src={instagram}
+							alt="Instagram Logo"
+							style={{ maxHeight: "80px" }}
+						/>
 					</span>
 				</a>
 			</div>
